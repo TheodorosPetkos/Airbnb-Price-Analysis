@@ -57,3 +57,15 @@ First baseline model for predicting Airbnb prices.
 - R^2: ~0.11
 
 This is a first baseline model and will be improved in the next steps.
+
+## Model Improvement
+
+After removing extreme outliers (price > 500), model performance improved significantly.
+
+### Random Forest (after cleaning data)
+
+- MAE: ~44
+- RMSE: ~65 
+- R^2: ~0.40
+
+This demonstrates how important data preprocessing is compared to just changing models.
